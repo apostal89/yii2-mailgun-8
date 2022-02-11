@@ -1,0 +1,41 @@
+{
+  "name": "analyticsface/yii2-mailgun",
+  "description": "Mailgun SDK PHP for Yii2 Framework.",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii 2", "mailgun"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Ivan Vladimirov",
+      "email": "vladimirovii@aface.ru",
+      "homepage": "https://aface.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/analyticsface/yii2-mailgun/issues?state=open",
+    "source": "https://github.com/analyticsface/yii2-mailgun"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "mailgun/mailgun-php": "^3.5",
+    "php-http/curl-client": "^1.7",
+    "guzzlehttp/psr7": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "aface\\mailgun\\": ""
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
